@@ -1,5 +1,5 @@
 require './lib/rover'
-require './input_adapter'
+require './lib/input_adapter'
 
 class Program
 
