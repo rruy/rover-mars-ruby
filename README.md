@@ -48,29 +48,16 @@ Classe program.rb
 -> Responsável por inicializar o programa e receber como parametro um arquivo txt contendo as instruções de direções para o rover.
 
 Classe rover.rb 
--> Objeto com os atributos básicos do rover e seus comportamentos
+-> Objeto com os atributos básicos do rover e seus comportamentos.
 
 Classe input_adapter.rb
 -> Serviço responsável por efetuar a tradução dos dados do arquivo txt para classe o objeto de dados command_input.rb que será utilizado para trafegar os dados entre os objetos de comando.
 
 Classe command_factory.rb
--> Objeto que tem como objetivo criar instâncias de comandos com base na direções passadas como parametro. Basicamente é um factory.
+-> Objeto que tem como objetivo criar instâncias de comandos com base nas direções passadas como parâmetro. Basicamente é um factory.
 
 Class command_base.rb
 -> Funciona como um classe abstrata/interface porque tem algums metodos bases e também define o contrato para implementação nas classes filhas. 
 
 Class command_left.rb, command_right.rb e command_forward.rb
-Classes que tem o objetivo de movimentar o robo. no método move é utilizado o polimorfismo porque cada método de comando é implementado de forma diferente.
-
-
-
-
-
-
-
-
-
-
-
-
-
+Classes que tem o objetivo movimentar o rover. No método move é utilizado o polimorfismo porque cada método de comando é implementado de forma diferente.
