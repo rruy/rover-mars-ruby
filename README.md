@@ -45,7 +45,7 @@ sudo docker run rovermars . > output.txt
 ## Info
 
 Classe program.rb 
--> Responsável por inicializar o programa e receber como parametro um arquivo txt contento as instruções de direções para o rover.
+-> Responsável por inicializar o programa e receber como parametro um arquivo txt contendo as instruções de direções para o rover.
 
 Classe rover.rb 
 -> Objeto com os atributos basicos do objeto rover e comportamento de mover
