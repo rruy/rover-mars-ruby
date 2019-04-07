@@ -20,7 +20,7 @@ LMLMLMLMM
 MMRMMRMRRM
 ```
 
-## Output experado
+## Output esperado
 
 ```
 1 3 N
