@@ -12,9 +12,8 @@ class InputAdapter
   end
       
   def open_file
-    puts "Nome do arquivo #{@filename}"
     raise IOError.new('Error to open file') if !File.file? ("./" + @filename)
-    @input_lines = File.new(@filename, "r").readlines
+    @input_lines = File.new("./" + @filename, "r").readlines
   end
 
   def translate

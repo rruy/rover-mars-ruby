@@ -4,7 +4,7 @@ require './lib/command_forward'
 
 class CommandFactory
 
-    attr_accessor :command_base, :command
+    attr_accessor :rover
 
     def initialize(rover)
       @rover = rover
