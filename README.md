@@ -48,7 +48,7 @@ Classe program.rb
 -> Responsável por inicializar o programa e receber como parametro um arquivo txt contendo as instruções de direções para o rover.
 
 Classe rover.rb 
--> Objeto com os atributos basicos do objeto rover e comportamento de mover
+-> Objeto com os atributos básicos do rover e seus comportamentos
 
 Classe input_adapter.rb
 -> Serviço responsável por efetuar a tradução dos dados do arquivo txt para classe o objeto de dados command_input.rb que será utilizado para trafegar os dados entre os objetos de comando.
