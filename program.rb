@@ -5,7 +5,7 @@ class Program
 
   def self.run(file_name = "input.txt")
     command_params = InputAdapter.new(file_name).translate
-    rover = Rover.new(*command_params.inital_coords)
+    rover = Rover.new(*command_params.initial_coords)
     output = ''
     command_params.directions.each do |item|
       output << rover.move(item)
