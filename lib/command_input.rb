@@ -1,10 +1,10 @@
 class CommandInput
 
-  attr_reader :inital_coords
+  attr_reader :initial_coords
   attr_accessor :directions
 
-  def initialize(inital_coords)
-    @inital_coords = inital_coords.split(' ')
+  def initialize(initial_coords)
+    @initial_coords = initial_coords.split(' ')
     @directions = []
   end
 
